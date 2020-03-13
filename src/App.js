@@ -1,6 +1,6 @@
 import React from 'react';
-import ComputerClock from './components/Clock/ComputerClock'
-import WorldClock from './components/Clock/WorldClock'
+import {ComputerClock, WorldClock} from './components/Clock/'
+
 
 
 function App(props) {

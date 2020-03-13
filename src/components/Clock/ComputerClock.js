@@ -18,11 +18,11 @@ class ComputerClock extends React.Component {
       this.setState({
         date: new Date()
       });
-      this.state = {date: new Date};
+      this.state = {date: new Date()};
     }
   
     render() {
-      let {date, local} = this.state;
+      let {date} = this.state;
       return (
         <div>
           <h2>My Computer Clock is {date.toLocaleTimeString()}.</h2>
